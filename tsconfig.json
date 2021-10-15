@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // целевая версия js
+    "allowJs": false, // разрешить файлы js
+    "strict": true, // строгий режим (включать как можно раньше - позднее включение обойдется дорого)
+    "outDir": "./dist", // куда кидать скомпилированный код
+    "sourceMap": false, // карта исходного кода для отладки
+    "esModuleInterop": true, // для удобства импортов (import { format } from 'date-fns' вместо require)
+    "removeComments": true
+  },
+  "include": ["src"]
+}
